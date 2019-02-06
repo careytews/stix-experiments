@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script type="text/javascript" src="lib/xmlToJSON.js"></script>
+        <script type="text/javascript" src="TA18-149A.stix.js"></script>
+    </head>
+    <body>
+        <div id="placeholder"></div>
+    </body>
+
+<script>
+    document.getElementById("placeholder").innerHTML = JSON.stringify(xmlToJSON.parseString(convertme));
+</script>
+</html>
